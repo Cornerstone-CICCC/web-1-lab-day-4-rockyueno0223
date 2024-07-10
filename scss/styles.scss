@@ -57,3 +57,36 @@ body {
     }
   }
 }
+
+#employees{
+  table{
+    width: 100%;
+    font-size: 18px;
+
+    th{
+      background-color: #D8D8D8;
+      height: 2.5rem;
+    }
+
+    .th-photo{
+      width: 15%;
+    }
+
+    td{
+      height: 3rem;
+      padding-left: 6px;
+
+      img{
+        width: 80%;
+      }
+    }
+
+    tr:nth-child(odd){
+      background-color: #EBEBEB;
+    }
+
+    tr:nth-child(even) {
+      background-color: #F4F4F4;
+    }
+  }
+}

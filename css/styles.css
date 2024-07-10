@@ -52,4 +52,27 @@ body {
   padding: 0.25rem;
 }
 
-/*# sourceMappingURL=styles.css.map */
+#employees table {
+  width: 100%;
+  font-size: 18px;
+}
+#employees table th {
+  background-color: #D8D8D8;
+  height: 2.5rem;
+}
+#employees table .th-photo {
+  width: 15%;
+}
+#employees table td {
+  height: 3rem;
+  padding-left: 6px;
+}
+#employees table td img {
+  width: 80%;
+}
+#employees table tr:nth-child(odd) {
+  background-color: #EBEBEB;
+}
+#employees table tr:nth-child(even) {
+  background-color: #F4F4F4;
+}/*# sourceMappingURL=styles.css.map */
